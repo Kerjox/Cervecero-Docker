@@ -1,0 +1,48 @@
+version: '2'
+services:
+
+  nodered:
+    container_name: nodered
+    build: ./services/nodered/.
+    restart: unless-stopped
+    user: "0"
+    privileged: true
+    env_file: ./services/nodered/nodered.env
+    ports:
+      - 1880:1880
+    volumes:
+      - ./volumes/nodered/data:/data
+
+  mosquitto:
+    container_name: mosquitto
+    image: eclipse-mosquitto
+    restart: unless-stopped
+    user: "1883"
+    ports:
+      - 1883:1883
+      - 9001:9001
+    volumes:
+      - ./volumes/mosquitto/data:/mosquitto/data
+      - ./volumes/mosquitto/log:/mosquitto/log
+      - ./services/mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf
+
+
+  mariadb:
+    image: linuxserver/mariadb
+    container_name: mariadb
+    env_file:
+      - ./services/mariadb/mariadb.env
+    volumes:
+      - ./volumes/mariadb/config:/config
+    ports:
+      - 3306:3306
+    restart: unless-stopped
+
+
+  web-cervecero:
+    image: web-cervecero
+    container_name: web-cervecero
+    build: ./services/web-cervecero/.
+    restart: unless-stopped
+    ports:
+      - 80:80

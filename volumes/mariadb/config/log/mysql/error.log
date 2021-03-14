@@ -1,0 +1,82 @@
+2021-02-11 15:37:32 3069573952 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-02-11 15:37:32 3069573952 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-02-11 15:37:32 3069573952 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-02-11 15:37:32 3069573952 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-02-11 15:37:32 3069573952 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-02-11 15:37:32 3069573952 [Note] InnoDB: Using Linux native AIO
+2021-02-11 15:37:32 3069573952 [Note] InnoDB: Using generic crc32 instructions
+2021-02-11 15:37:32 3069573952 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2021-02-11 15:37:32 3069573952 [Note] InnoDB: Completed initialization of buffer pool
+2021-02-11 15:37:32 3069573952 [Note] InnoDB: The first specified data file ./ibdata1 did not exist: a new database to be created!
+2021-02-11 15:37:32 3069573952 [Note] InnoDB: Setting file ./ibdata1 size to 12 MB
+2021-02-11 15:37:33 3069573952 [Note] InnoDB: Setting log file ./ib_logfile101 size to 48 MB
+2021-02-11 15:37:36 3069573952 [Note] InnoDB: Setting log file ./ib_logfile1 size to 48 MB
+2021-02-11 15:37:39 3069573952 [Note] InnoDB: Renaming log file ./ib_logfile101 to ./ib_logfile0
+2021-02-11 15:37:39 3069573952 [Warning] InnoDB: New log files created, LSN=45780
+2021-02-11 15:37:39 3069573952 [Note] InnoDB: Doublewrite buffer not found: creating new
+2021-02-11 15:37:39 3069573952 [Note] InnoDB: Doublewrite buffer created
+2021-02-11 15:37:39 3069573952 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-02-11 15:37:39 3069573952 [Warning] InnoDB: Creating foreign key constraint system tables.
+2021-02-11 15:37:39 3069573952 [Note] InnoDB: Foreign key constraint system tables created
+2021-02-11 15:37:39 3069573952 [Note] InnoDB: Creating tablespace and datafile system tables.
+2021-02-11 15:37:39 3069573952 [Note] InnoDB: Tablespace and datafile system tables created.
+2021-02-11 15:37:39 3069573952 [Note] InnoDB: Waiting for purge to start
+2021-02-11 15:37:39 3069573952 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.49-89.0 started; log sequence number 0
+2021-02-11 15:37:40 2323641264 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-02-11 15:37:40 3062977456 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1146: Table 'mysql.gtid_slave_pos' doesn't exist
+2021-02-11 15:37:42 3069451072 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-02-11 15:37:42 3069451072 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-02-11 15:37:42 3069451072 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-02-11 15:37:42 3069451072 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-02-11 15:37:42 3069451072 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-02-11 15:37:42 3069451072 [Note] InnoDB: Using Linux native AIO
+2021-02-11 15:37:42 3069451072 [Note] InnoDB: Using generic crc32 instructions
+2021-02-11 15:37:42 3069451072 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2021-02-11 15:37:42 3069451072 [Note] InnoDB: Completed initialization of buffer pool
+2021-02-11 15:37:42 3069451072 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-02-11 15:37:43 3069451072 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-02-11 15:37:43 3069451072 [Note] InnoDB: Waiting for purge to start
+2021-02-11 15:37:43 3069451072 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.49-89.0 started; log sequence number 1616693
+2021-02-11 15:37:43 2323641264 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-02-11 15:37:46 3069573952 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-02-11 15:37:46 3069573952 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-02-11 15:37:46 3069573952 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-02-11 15:37:46 3069573952 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-02-11 15:37:46 3069573952 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-02-11 15:37:46 3069573952 [Note] InnoDB: Using Linux native AIO
+2021-02-11 15:37:46 3069573952 [Note] InnoDB: Using generic crc32 instructions
+2021-02-11 15:37:46 3069573952 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2021-02-11 15:37:46 3069573952 [Note] InnoDB: Completed initialization of buffer pool
+2021-02-11 15:37:46 3069573952 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-02-11 15:37:46 3069573952 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-02-11 15:37:46 3069573952 [Note] InnoDB: Waiting for purge to start
+2021-02-11 15:37:46 3069573952 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.49-89.0 started; log sequence number 1616703
+2021-02-11 15:37:46 2323641264 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-02-11 15:37:49 3069324096 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-02-11 15:37:49 3069324096 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-02-11 15:37:49 3069324096 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-02-11 15:37:49 3069324096 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-02-11 15:37:49 3069324096 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-02-11 15:37:49 3069324096 [Note] InnoDB: Using Linux native AIO
+2021-02-11 15:37:49 3069324096 [Note] InnoDB: Using generic crc32 instructions
+2021-02-11 15:37:49 3069324096 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2021-02-11 15:37:49 3069324096 [Note] InnoDB: Completed initialization of buffer pool
+2021-02-11 15:37:49 3069324096 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-02-11 15:37:49 3069324096 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-02-11 15:37:49 3069324096 [Note] InnoDB: Waiting for purge to start
+2021-02-11 15:37:49 3069324096 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.49-89.0 started; log sequence number 1616713
+2021-02-11 15:37:49 2323641264 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-02-11 15:37:49 3069324096 [Note] Plugin 'FEEDBACK' is disabled.
+2021-02-11 15:37:49 3069324096 [Note] Server socket created on IP: '::'.
+2021-02-11 15:37:49 3069324096 [Note] Reading of all Master_info entries succeeded
+2021-02-11 15:37:49 3069324096 [Note] Added new Master_info '' to hash table
+2021-02-11 15:37:49 3069324096 [Note] mysqld: ready for connections.
+Version: '10.1.47-MariaDB-0ubuntu0.18.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Ubuntu 18.04
+2021-02-11 15:37:51 3028067248 [Note] mysqld: Normal shutdown
+2021-02-11 15:37:51 3028067248 [Note] Event Scheduler: Purging the queue. 0 events
+2021-02-11 15:37:51 2428494768 [Note] InnoDB: FTS optimize thread exiting.
+2021-02-11 15:37:51 3028067248 [Note] InnoDB: Starting shutdown...
+2021-02-11 15:37:51 3028067248 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2021-02-11 15:37:53 3028067248 [Note] InnoDB: Shutdown completed; log sequence number 1616723
+2021-02-11 15:37:53 3028067248 [Note] mysqld: Shutdown complete
+
