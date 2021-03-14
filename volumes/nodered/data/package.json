@@ -1,0 +1,13 @@
+{
+    "name": "node-red-project",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "node-red-contrib-bigtimer": "~2.7.3",
+        "node-red-contrib-stackhero-mysql": "~1.0.5",
+        "node-red-dashboard": "~2.28.1",
+        "node-red-node-email": "~1.8.3",
+        "node-red-node-ui-table": "~0.3.10"
+    }
+}

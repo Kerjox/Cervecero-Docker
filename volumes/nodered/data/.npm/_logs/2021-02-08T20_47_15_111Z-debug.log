@@ -1,0 +1,37 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--no-audit',
+1 verbose cli   '--no-update-notifier',
+1 verbose cli   '--no-fund',
+1 verbose cli   '--save',
+1 verbose cli   '--save-prefix=~',
+1 verbose cli   '--production',
+1 verbose cli   'node-red-contrib-alarm@1.2.4' ]
+2 info using npm@6.14.10
+3 info using node@v10.23.2
+4 verbose npm-session 0b321a4f50a3c885
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData error for node-red-contrib-alarm@1.2.4 request to https://registry.npmjs.org/node-red-contrib-alarm failed, reason: connect EHOSTUNREACH 104.16.27.35:443
+8 timing stage:rollbackFailedOptional Completed in 4ms
+9 timing stage:runTopLevelLifecycles Completed in 7496ms
+10 verbose type system
+11 verbose stack FetchError: request to https://registry.npmjs.org/node-red-contrib-alarm failed, reason: connect EHOSTUNREACH 104.16.27.35:443
+11 verbose stack     at ClientRequest.req.on.err (/usr/local/lib/node_modules/npm/node_modules/node-fetch-npm/src/index.js:68:14)
+11 verbose stack     at ClientRequest.emit (events.js:198:13)
+11 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:401:9)
+11 verbose stack     at TLSSocket.emit (events.js:198:13)
+11 verbose stack     at emitErrorNT (internal/streams/destroy.js:91:8)
+11 verbose stack     at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+11 verbose stack     at process._tickCallback (internal/process/next_tick.js:63:19)
+12 verbose cwd /data
+13 verbose Linux 5.10.11-v7l+
+14 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--no-audit" "--no-update-notifier" "--no-fund" "--save" "--save-prefix=~" "--production" "node-red-contrib-alarm@1.2.4"
+15 verbose node v10.23.2
+16 verbose npm  v6.14.10
+17 error code EHOSTUNREACH
+18 error errno EHOSTUNREACH
+19 error request to https://registry.npmjs.org/node-red-contrib-alarm failed, reason: connect EHOSTUNREACH 104.16.27.35:443
+20 verbose exit [ 1, true ]
